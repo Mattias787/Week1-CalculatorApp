@@ -32,7 +32,19 @@ int result = 0;
         }
 Console.WriteLine($"Result: {result});
  }
-                  
+          catch (FormatException ex)
+          { 
+           Console.WriteLine("Enter a valid number");
+          }
+            catch(DivideByZeroException ex)
+          {
+           Console.WriteLine($"You cant divide by zero");
+          }
+           finally
+          {
+           Console.WriteLine(" Operation Completed"); 
+          
+              
                 
                   
 
