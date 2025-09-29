@@ -46,7 +46,4 @@ Console.WriteLine($"Result: {result});
           
               
                 
-                  
-
-
-Console.WriteLine("adding {0} and {1} equals {2}", firstNumber, secondNumber, Result);
+                
